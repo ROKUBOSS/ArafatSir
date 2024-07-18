@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICT (HSC)</title>
+<link rel="shortcut icon" href="ictfavicon.webp" type="image/x-icon">
+
+<style>
+  /* body{
+  background-image:url(bgog.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: capitalize;
+
+} */
+.collapsible {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  margin: 1px;
+  padding: 18px;
+  width: 10%;
+  /* border: 1px solid gold; */
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: orange;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+h3{
+  border: 2px solid orange;
+  padding: 10px;
+  border-radius: 10px;
+  
+  
+
+}
+.hide{
+  display: none;
+}
+h3:hover .hide{
+  display: block;
+  padding-top: 5px;
+}
+iframe{
+width: 100%;
+height: 1200px;
+}
+a{
+  text-decoration: none;
+  border: 1px solid darkblue;
+  padding: 10px;
+  background-color: black;
+  color: wheat;
+  border-radius: 10px;
+  font-size: x-large;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, #slider {
+    width: 100%;
+  }
+}
+@media screen and (max-height: 450px),(max-width: 600px) {
+  a {
+    display: flex;
+  }
+  
+}
+
+
+</style>
+</head>
+<body>
+
+<center>
+<a href="FullQstnCandD/qstncchap1.html" target="montu">Chapter-1</a>
+<a href="FullQstnCandD/qstncchap2.html" target="montu">Chapter-2</a>
+<a href="FullQstnCandD/qstncchap3.html" target="montu">Chapter-3</a>
+<a href="FullQstnCandD/qstncchap4.html" target="montu">Chapter-4</a>
+<a href="FullQstnCandD/qstncchap5.html" target="montu">Chapter-5</a>
+<a href="FullQstnCandD/qstncchap6.html" target="montu">Chapter-6</a>
+
+</center>
+
+<iframe src="" frameborder="0" name="montu"></iframe>
+
+<!-- <button class="collapsible">Hello11</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>

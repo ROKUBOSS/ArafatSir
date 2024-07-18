@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICT (HSC)</title>
+<link rel="shortcut icon" href="ictfavicon.webp" type="image/x-icon">
+
+<style>
+  body{
+  background-image:url(Images/bgog.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: capitalize;
+
+}
+.collapsible {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  margin: 1px;
+  padding: 18px;
+  width: 10%;
+  /* border: 1px solid gold; */
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: orange;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+h3{
+  border: 2px solid orange;
+  padding: 10px;
+  border-radius: 10px;
+  
+  
+
+}
+.hide{
+  display: none;
+}
+h3:hover .hide{
+  display: block;
+  padding-top: 5px;
+}
+table,th,td{
+border: 1px solid darkblue;
+padding: 5px;
+border-collapse: collapse;
+width: 100%;
+table-layout: fixed;
+font-size: larger;
+
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, #slider {
+    width: 100%;
+  }
+}
+@media screen and (max-height: 450px),(max-width: 600px) {
+  .collapsible {
+    width: 100%;
+  }
+  
+}
+
+
+</style>
+</head>
+<body>
+<button class="collapsible">Book VS WebSite</button>
+<div class="content">
+  <table>
+    <tr>
+      <th>Book</th>
+      <th>WebSite</th>
+    </tr>
+    <tr>
+      <td>Page</td>
+      <td>Web Page</td>
+    </tr>
+    <tr>
+      <td>Text / Image</td>
+      <td>Text / Image / Audio / Video</td>
+    </tr>
+    <tr>
+      <td>Cover Page</td>
+      <td>Home Page</td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>Domain</td>
+    </tr>
+    <tr>
+      <td>Library</td>
+      <td>Server</td>
+    </tr>
+    <tr>
+      <td>Librarian</td>
+      <td>Browser</td>
+    </tr>
+    <tr>
+      <td>Writer</td>
+      <td>Web Designer & Web Developer</td>
+    </tr>
+    <tr>
+      <td>Reader</td>
+      <td>User</td>
+    </tr>
+    <tr>
+      <td>Background Color White</td>
+      <td>Background Color White</td>
+      
+    </tr>
+  </table>
+</div>
+<button class="collapsible">Number System Addition / Subtraction</button>
+<div class="content">
+ ???
+</div>
+<button class="collapsible">Number System Conversion</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Lecture-4</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<!-- <button class="collapsible">Hello11</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>

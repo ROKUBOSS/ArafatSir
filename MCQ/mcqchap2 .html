@@ -1,0 +1,882 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Questions</title>
+    <style>
+        .mcq-container {
+            margin: 20px;
+            padding: 20px;
+            /* border: 1px solid #ccc; */
+            border-radius: 10px;
+            width: 90%;
+        }
+
+        .mcq-container h3 {
+            margin-bottom: 20px;
+        }
+
+        .option {
+            margin: 10px 0;
+            padding: 10px;
+            /* border: 1px solid #ccc; */
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .option.correct {
+            background-color: #c8e6c9;
+            border-color: #388e3c;
+        }
+
+        .answer-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .answer-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="mcq-container" id="mcq1">
+    <h3>HTML এর পূর্ণরূপ কী?</h3>
+    <div class="option" data-correct="false">Hyper Trainer Marking Language</div>
+    <div class="option" data-correct="false">Hyper Text Marketing Language</div>
+    <div class="option" data-correct="true">Hyper Text Markup Language</div>
+    <div class="option" data-correct="false">Hyperlink Text Markup Language</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq1')">Answer</button>
+</div>
+
+<div class="mcq-container" id="mcq2">
+    <h3>CSS এর পূর্ণরূপ কী?</h3>
+    <div class="option" data-correct="true">Cascading Style Sheets</div>
+    <div class="option" data-correct="false">Creative Style Sheets</div>
+    <div class="option" data-correct="false">Computer Style Sheets</div>
+    <div class="option" data-correct="false">Colorful Style Sheets</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq2')">Answer</button>
+</div>
+
+<div class="mcq-container" id="mcq3">
+    <h3>JavaScript এর কোনটি একটি ডাটা টাইপ নয়?</h3>
+    <div class="option" data-correct="false">String</div>
+    <div class="option" data-correct="false">Number</div>
+    <div class="option" data-correct="true">Character</div>
+    <div class="option" data-correct="false">Boolean</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq3')">Answer</button>
+</div>
+
+<div class="mcq-container" id="mcq4">
+    <h3>Python এর কোনটি একটি লাইব্রেরী নয়?</h3>
+    <div class="option" data-correct="false">NumPy</div>
+    <div class="option" data-correct="false">Pandas</div>
+    <div class="option" data-correct="true">React</div>
+    <div class="option" data-correct="false">Matplotlib</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq4')">Answer</button>
+</div>
+
+<div class="mcq-container" id="mcq5">
+    <h3>OOP তে কোনটি একটি প্রাথমিক ধারণা?</h3>
+    <div class="option" data-correct="false">Looping</div>
+    <div class="option" data-correct="true">Inheritance</div>
+    <div class="option" data-correct="false">Conditionals</div>
+    <div class="option" data-correct="false">Recursion</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq5')">Answer</button>
+</div>
+
+<div class="mcq-container" id="mcq6">
+    <h3>SQL এর কোনটি একটি ডাটা রিট্রিভাল কমান্ড?</h3>
+    <div class="option" data-correct="true">SELECT</div>
+    <div class="option" data-correct="false">INSERT</div>
+    <div class="option" data-correct="false">UPDATE</div>
+    <div class="option" data-correct="false">DELETE</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq6')">Answer</button>
+</div>
+
+<div class="mcq-container" id="mcq7">
+    <h3>HTTP এর পূর্ণরূপ কী?</h3>
+    <div class="option" data-correct="false">HyperText Transfer Protocol</div>
+    <div class="option" data-correct="true">HyperText Transfer Protocol</div>
+    <div class="option" data-correct="false">Hyperlink Transfer Protocol</div>
+    <div class="option" data-correct="false">Hyper Transfer Text Protocol</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq7')">Answer</button>
+</div>
+
+<div class="mcq-container" id="mcq8">
+    <h3>Linux এর কোনটি একটি কমান্ড নয়?</h3>
+    <div class="option" data-correct="false">ls</div>
+    <div class="option" data-correct="false">cd</div>
+    <div class="option" data-correct="true">rmv</div>
+    <div class="option" data-correct="false">pwd</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq8')">Answer</button>
+</div>
+
+<div class="mcq-container" id="mcq9">
+    <h3>DNS এর পূর্ণরূপ কী?</h3>
+    <div class="option" data-correct="true">Domain Name System</div>
+    <div class="option" data-correct="false">Dynamic Name Server</div>
+    <div class="option" data-correct="false">Domain Name Server</div>
+    <div class="option" data-correct="false">Dynamic Network System</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq9')">Answer</button>
+</div>
+
+<div class="mcq-container" id="mcq10">
+    <h3>TCP/IP এর কোনটি একটি লেয়ার নয়?</h3>
+    <div class="option" data-correct="false">Application</div>
+    <div class="option" data-correct="true">Session</div>
+    <div class="option" data-correct="false">Transport</div>
+    <div class="option" data-correct="false">Network</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq10')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq11">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq11')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq12">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq12')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq13">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq13')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq14">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq14')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq15">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq15')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq16">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq16')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq17">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq17')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq18">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq18')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq19">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq19')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq20">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq20')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq21">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq21')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq22">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq22')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq23">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq23')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq24">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq24')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq25">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq25')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq26">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq26')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq27">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq27')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq28">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq28')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq29">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq29')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq30">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq30')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq31">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq31')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq32">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq32')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq33">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq33')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq34">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq34')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq35">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq35')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq36">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq36')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq37">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq37')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq38">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq38')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq39">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq39')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq40">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq40')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq41">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq41')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq42">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq42')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq43">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq43')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq44">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq44')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq45">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq45')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq46">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq46')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq47">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq47')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq48">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq48')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq49">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq49')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq50">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq50')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq51">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq51')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq52">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq52')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq53">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq53')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq54">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq54')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq55">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq55')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq56">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq56')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq57">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq57')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq58">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq58')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq59">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq59')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq60">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq60')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq61">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq61')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq62">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq62')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq63">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq63')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq64">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq64')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq65">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq65')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq66">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq66')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq67">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq67')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq68">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq68')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq69">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq69')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq70">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq70')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq11">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq11')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq71">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq71')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq72">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq72')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq73">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq73')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq74">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq74')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq75">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq75')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq76">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq76')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq77">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq77')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq78">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq78')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq79">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq79')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq80">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq80')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq81">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq81')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq82">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq82')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq83">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq83')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq84">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq84')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq85">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq85')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq86">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq86')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq87">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq87')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq88">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq88')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq89">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq89')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq90">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq90')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq91">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq91')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq92">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq92')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq93">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq93')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq94">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq94')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq95">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq95')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq96">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq96')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq97">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq97')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq98">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq98')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq99">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq99')">Answer</button>
+</div>
+<div class="mcq-container" id="mcq100">
+    <h3>National Fruit Name?</h3>
+    <div class="option" data-correct="false">Mango</div>
+    <div class="option" data-correct="false">Banana</div>
+    <div class="option" data-correct="false">Orange</div>
+    <div class="option" data-correct="true">Jackfruit</div>
+    <button class="answer-button" onclick="showCorrectAnswer('mcq100')">Answer</button>
+</div>
+
+<script>
+    function showCorrectAnswer(mcqId) {
+        const options = document.querySelectorAll(`#${mcqId} .option`);
+        options.forEach(option => {
+            if (option.getAttribute('data-correct') === 'true') {
+                option.classList.add('correct');
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
+
