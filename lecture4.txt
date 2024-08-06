@@ -1,0 +1,13 @@
+***OL***
+<ol type="1">
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+Type 1/a/A/i/I/Start
+***UL***
+<ul type="disc">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+Type Disc/Circle/Square
+
