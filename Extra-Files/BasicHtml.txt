@@ -1,0 +1,89 @@
+1-HTML কি ?
+Ans-HTML হল একটি Markup Language.
+2-Markup Language কেন ব্যাবহার হয় ?
+Ans-Markup language ব্যবহার হয় মূলত Web Page এবং Document কাঠামো এবং ফরম্যাট নির্ধারণ করতে। 
+3-HTML Full Form ?
+Ans:HyperText Markup Language.
+4-HTML সম্পর্কে  সংক্ষেপে বল ?
+Ans-অনেকগুলা Tags (100-150) এবং Attributes(70) এর ব্যাবহার।
+5-বর্তমানে HTML Version কত ?
+Ans-HTML Version 5.
+6-Attribute এর শাব্দিক অর্থ কি এবং এর কয়টা অংশ হয় ?
+7-Attribute এর শাব্দিক অর্থ (গুণ বা বৈশিষ্ট্য) এর দুইটা অংশ হয় Attribute Name &
+Attribute Value.
+8-Attribute কি Tag ব্যতীত ব্যবহার করা যায় ?
+Ans-Tag কে আরো বৈশিষ্ট্যপূর্ণ করতে এট্রিবিউট ব্যবহার করা হয়। তাই Tag ব্যতীত Attribute ব্যবহার করার প্রশ্নই উঠে না।
+9-Attribute Tag এর কোন অংশে ব্যবহার হয় ? এর ১টা উদাহরণ দাও ?
+Ans-Opening Tag এ ব্যাবহার হয়। যেমনঃ <a href=" ">Click Me </a>
+10-Html language এ শুধু Tag এবং Attribute  ব্যবহার হয়। তবুও কেন Student ঠিকমতো পারে না ?
+Ans-কারণ ওদেরকে ব্যবহারিক বিষয়গুলো ঠিকমতো শেখানো হয় না।
+যারা শিক্ষক তারা অনেকে প্র্যাকটিক্যাল বিষয়গুলো পারেনা।
+এবং যেকোনো ব্যবহারিক বিষয়কে তত্ত্বীয় করে শিখানো হলে এটা কষ্টসাধ্য হয়।
+
+*একজন Professional Programmer হতে কেমন সময় লাগতে পারে ?
+Ans- A Junior Professional Programmer হতে Around 6 Months লাগবে।
+
+***At a glance Chapter 4***
+1-Container Tag / Paired Tag ? 
+2-Empty Tag   /  Self Closing Tag ?
+3-Difference Container Tag & Empty Tag ?
+4-WWW Full Form ?
+4- Tim Berners-Lee (1990)
+5-HTML Full Form ?
+6-URL Full Form ?
+7-Src = Source
+8-Href = Hyper Reference
+9-HTML Basic Structure ?
+10-Home Page কাকে বলা হয় ?
+11-Web Page কাকে বলা হয় ?
+12-Domain Name কাকে বলে ?
+12-Domain Name কেন দরকার ?
+13-How To Write A Attribute ?
+14-Website কত প্রকার ?
+15-Static Website কাকে বলা হয় ?
+16-Dynamic Website কাকে বলা হয় ?
+17-Difference Between Static & Dynamic Website
+18-Server  (সার্ভার একটি শক্তিশালী কম্পিউটার যেখানে তথ্য জমা থাকে এবং নেটওয়ার্কের মাধ্যমে অন্য কম্পিউটার কে সার্ভিস দিয়ে থাকে)
+19-Web Server (ইন্টারনেটের সাহায্যে যুক্ত যে সার্ভারে ওয়েব পেজ এবং বা ওয়েবসাইট সংরক্ষিত থাকে তাকে ওয়েব সার্ভার বলে)
+20-IP Address Full Form
+21-IP Address কাকে বলা হয় ?
+22-HTML কি Case Sensitive ?
+23-Website এর বৈশিষ্ট্যের উপর ভিত্তি করে ওয়েব সাইটের পেইজ কতভাবে সাজানো যায় ? (৪ ভাবে সাজানো যায়
+*সিকুয়েন্স বা লিনিয়ার;
+
+*ট্রি বা হায়ারারকিক্যাল;
+
+*ওয়েব লিংকড;
+
+*হাইব্রিড বা কম্বিনেশন)
+
+24-HTML সুবিধা / অসুবিধা ?
+25-HTML এ OL & Ul Tag ব্যাখ্যা কর ?
+26-HTTP Full Form
+27-HTTP কাকে বলে ?
+28-FTP (File Transfer Protocol) Full Form & Definition
+29-URL Definition
+30-Hypertext Definition ?
+31-Hyperlink Definition?
+32-IP Address হতে Domain Name সুবিধা ব্যাখ্যা কর?
+33-Voip (Voice Over Internet Protocol)
+34-SMTP (Simple Mail Transfer Protocol)
+35-Target Attribute এর ব্যাবহার ?
+36-Web Browser Definition?
+37-Search Engine Definition ?
+38-Web Browser & Search Engine এক নয়। ব্যাখ্যা কর।
+39-Web Page & Web Browser Relation Explain ?
+40-https://www.google.com এটা বলতে কি বুঝ ব্যাখ্যা কর।
+41-HTTP কিভাবে কাজ করে ব্যাখ্যা কর ?
+42-IP Address কত প্রকার ও কি কি ? (২ প্রকার IPv4 * IPv6)
+43-Difference Between IPv4 & IPv6 ?
+44-কেন IPv6 এর পর আর কোন Version এর প্রয়োজন নাই ?
+45-ওয়েবসাইট কাকে বলে
+46-ওয়েবপেজে বাংলা লেখা প্রদর্শনের নিয়ম কি
+47-ডোমেইন নেমে www ঢাকা থাকার কারণ কি
+48-IPv4 এর কার্যক্রম শুরু হয় কত সালে ?
+49-IPv4 এর কয়টি সেগমেন্ট থাকে প্রতিটি অংশকে পৃথক করার জন্য কি ব্যবহার করা হয় ?
+50-IP Address কয়টি অংশ থাকে ?
+
+
+
